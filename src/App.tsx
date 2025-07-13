@@ -198,7 +198,7 @@ function App() {
             >
               <motion.div 
                 className="w-20 h-20 sm:w-32 sm:h-32 lg:w-40 lg:h-40 rounded-full mx-auto sm:mx-0 mb-3 sm:mb-6 flex items-center justify-center shadow-2xl bg-gradient-to-r from-blue-400 to-purple-500"
-                whileHover={{ scale: 1.1 }}
+                whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.95 }}
               >
                 <img 
@@ -230,7 +230,7 @@ function App() {
                   className={`w-full ${link.color} ${link.hoverColor} text-white rounded-xl sm:rounded-2xl p-3 sm:p-4 sm:aspect-square flex items-center justify-between sm:justify-center sm:flex-col transition-all duration-300 shadow-lg backdrop-blur-sm bg-opacity-90 group border border-transparent hover:border-gradient-to-r hover:from-cyan-400 hover:via-purple-500 hover:to-pink-500 hover:shadow-[0_0_20px_rgba(139,92,246,0.6)] relative overflow-hidden`}
                   variants={itemVariants}
                   whileHover={{ 
-                    scale: 1.02,
+                    scale: 1.2,
                     boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
                     transition: { duration: 0.2 }
                   }}
