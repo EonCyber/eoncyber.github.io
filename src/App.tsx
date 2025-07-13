@@ -21,7 +21,7 @@ function App() {
   const socialLinks: SocialLink[] = [
     {
       name: 'LinkedIn',
-      url: 'www.linkedin.com/in/ian-vieira-salgado',
+      url: 'https://www.linkedin.com/in/ian-vieira-salgado',
       icon: <Linkedin className="w-6 h-6" />,
       color: 'bg-blue-600',
       hoverColor: 'hover:bg-blue-700'
