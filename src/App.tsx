@@ -21,35 +21,35 @@ function App() {
   const socialLinks: SocialLink[] = [
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/yourprofile',
+      url: 'www.linkedin.com/in/ian-vieira-salgado',
       icon: <Linkedin className="w-6 h-6" />,
       color: 'bg-blue-600',
       hoverColor: 'hover:bg-blue-700'
     },
     {
       name: 'Substack',
-      url: 'https://yourname.substack.com',
+      url: 'https://stackinteligente.substack.com/',
       icon: <BookOpen className="w-6 h-6" />,
       color: 'bg-orange-500',
       hoverColor: 'hover:bg-orange-600'
     },
     {
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/EonCyber',
       icon: <Github className="w-6 h-6" />,
       color: 'bg-gray-800',
       hoverColor: 'hover:bg-gray-900'
     },
     {
       name: 'Instagram',
-      url: 'https://instagram.com/yourusername',
+      url: 'https://instagram.com/ianzvieira',
       icon: <Instagram className="w-6 h-6" />,
       color: 'bg-gradient-to-r from-purple-500 to-pink-500',
       hoverColor: 'hover:from-purple-600 hover:to-pink-600'
     },
     {
       name: 'YouTube',
-      url: 'https://youtube.com/@yourchannel',
+      url: 'https://youtube.com/@eonkaivr',
       icon: <Youtube className="w-6 h-6" />,
       color: 'bg-red-600',
       hoverColor: 'hover:bg-red-700'
