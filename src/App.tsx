@@ -27,7 +27,7 @@ function App() {
       hoverColor: 'hover:bg-blue-700'
     },
     {
-      name: 'Substack',
+      name: 'Stack Inteligente Newsletter',
       url: 'https://stackinteligente.substack.com/',
       icon: <BookOpen className="w-6 h-6" />,
       color: 'bg-orange-500',
@@ -41,7 +41,7 @@ function App() {
       hoverColor: 'hover:bg-gray-900'
     },
     {
-      name: 'Instagram',
+      name: '@ianzvieira',
       url: 'https://instagram.com/ianzvieira',
       icon: <Instagram className="w-6 h-6" />,
       color: 'bg-gradient-to-r from-purple-500 to-pink-500',
@@ -49,7 +49,7 @@ function App() {
     },
     {
       name: 'YouTube',
-      url: 'https://youtube.com/@eonkaivr',
+      url: 'https://youtube.com/@ivs4ev',
       icon: <Youtube className="w-6 h-6" />,
       color: 'bg-red-600',
       hoverColor: 'hover:bg-red-700'
