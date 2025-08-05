@@ -202,8 +202,8 @@ function App() {
                 whileTap={{ scale: 0.95 }}
               >
                 <img 
-                  src="/ian-profile.jpeg" 
-                  alt="IVS Logo" 
+                  src="/IMG_5805.jpg" 
+                  alt="Ian is smiling and looking at a laptop. Wearing a black turtleneck." 
                   className="w-full h-full rounded-full object-cover"
                 />
               </motion.div>
