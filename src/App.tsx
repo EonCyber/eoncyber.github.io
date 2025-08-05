@@ -27,7 +27,7 @@ function App() {
       hoverColor: 'hover:bg-blue-700'
     },
     {
-      name: 'Stack Inteligente Newsletter',
+      name: 'Newsletter',
       url: 'https://stackinteligente.substack.com/',
       icon: <BookOpen className="w-6 h-6" />,
       color: 'bg-orange-500',
