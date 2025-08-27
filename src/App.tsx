@@ -6,7 +6,8 @@ import {
   Instagram, 
   Youtube,
   BookOpen,
-  ExternalLink
+  ExternalLink,
+  Code
 } from 'lucide-react';
 
 interface SocialLink {
@@ -19,6 +20,13 @@ interface SocialLink {
 
 function App() {
   const socialLinks: SocialLink[] = [
+    {
+      name: 'Bootcamp',
+      url: 'https://llmparadevs.com.br/',
+      icon: <Code className="w-6 h-6" />,
+      color: 'bg-green-600',
+      hoverColor: 'hover:bg-blue-300'
+    },
     {
       name: 'LinkedIn',
       url: 'https://www.linkedin.com/in/ian-vieira-salgado',
